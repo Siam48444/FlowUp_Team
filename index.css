@@ -238,6 +238,10 @@ main {
     border: solid 0.01em linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
 }
 
+.a {
+    height: 200vh;
+}
+
 @media (width < 1000px) {
     nav {
         inset: 0 0 auto 0;
