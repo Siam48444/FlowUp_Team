@@ -216,7 +216,6 @@ main {
 }
 
 .hero_btn_container {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -280,6 +279,7 @@ main {
     }
 
     .hero_btn_container {
+        width: 100%;
         flex-direction: column;
     }
 
