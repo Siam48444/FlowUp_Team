@@ -191,6 +191,25 @@ main {
     gap: 1em;
     border-radius: 2em;
 }
+.hero_container h1 {
+    color: var(--Black);
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 3.5em;
+}
+
+.hero_container h1 span {
+    color: var(--Primary_Blue);
+}
+
+.hero_container h3 {
+    color: var(--Black);
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1.1em;
+    text-align: center;
+    width: 60%;
+}
 
 .hero_btn_container {
     display: flex;
