@@ -30,7 +30,7 @@ html {
     /* Colors */
     --Primary_Blue: rgb(59, 90, 255);
     --Light_Blue: rgb(231, 236, 251);
-    --Dark_Blue: rgb(23, 33, 87);
+    --Dark_Blue: rgb(18, 26, 71);
     --Primary_Orange: rgb(255, 92, 33);
     --Black: rgb(17, 17, 17);
     --White: rgb(250, 250, 250);
@@ -183,6 +183,7 @@ main {
 
 .hero_container {
     background-image: linear-gradient(var(--Light_Blue), var(--White));
+    background-repeat: no-repeat;
     width: 80%;
     height: 100%;
     display: flex;
@@ -233,6 +234,8 @@ main {
     border-color: transparent;
     color: var(--White);
     background-image: linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
+    background-repeat: no-repeat;
+    border: solid 0.01em linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
 }
 
 @media (width < 1000px) {
