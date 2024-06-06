@@ -29,7 +29,7 @@ html {
 :root {
     /* Colors */
     --Primary_Blue: rgb(59, 90, 255);
-    --Light_Blue: rgb(239, 241, 250);
+    --Light_Blue: rgb(231, 236, 251);
     --Primary_Orange: rgb(255, 92, 33);
     --Black: rgb(17, 17, 17);
     --White: rgb(250, 250, 250);
@@ -181,7 +181,7 @@ main {
 }
 
 .hero_container {
-    background-color: var(--Light_Blue);
+    background-image: linear-gradient(var(--Light_Blue), var(--White));
     width: 80%;
     height: 100%;
     display: flex;
@@ -195,7 +195,7 @@ main {
     color: var(--Black);
     font-family: var(--Sora_Regular);
     font-weight: 500;
-    font-size: 3.5em;
+    font-size: 4em;
 }
 
 .hero_container h1 span {
