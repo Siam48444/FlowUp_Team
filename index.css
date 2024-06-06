@@ -32,7 +32,7 @@ html {
     --Primary_Orange: #ff5c21;
     --Black: #151516;
     --White: #fafafa;
-    --Gray: #5e5e61;
+    --Gray: #717175;
     --Light_Gray: rgb(209, 205, 204);
 
     /* Fonts */
@@ -42,8 +42,8 @@ html {
 
 nav {
     position: fixed;
-    inset: 0 5em auto 5em;
-    padding: 0.5em 1em;
+    inset: 0 8em auto 8em;
+    padding: 0.5em 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -117,7 +117,7 @@ nav {
 }
 
 #ham_btn_lines {
-    background-color: var(--Black);    
+    background-color: var(--Black);
     width: 100%;
     height: 0.12em;
 }
@@ -130,11 +130,14 @@ nav {
     padding: 0.9em 1.2em;
     border-radius: 9em;
     border: solid 0.01em var(--Light_Gray);
+}
+
+.orange_hover_btn {
     transition-property: background-color, color, border-color;
     transition-duration: 300ms;
 }
 
-.get_started:hover {
+.orange_hover_btn:hover {
     background-color: var(--Primary_Orange);
     color: var(--White);
     border-color: var(--Primary_Orange);
@@ -164,10 +167,6 @@ nav {
     color: var(--Gray);
     transition-property: color;
     transition-duration: 300ms;
-}
-
-.a {
-    height: 200vh;
 }
 
 @media (width < 1000px) {
