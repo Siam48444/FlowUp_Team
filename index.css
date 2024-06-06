@@ -41,6 +41,7 @@ html {
 }
 
 nav {
+    z-index: 9;
     position: fixed;
     inset: 0 8em auto 8em;
     padding: 0.5em 0;
@@ -167,6 +168,22 @@ nav {
     color: var(--Gray);
     transition-property: color;
     transition-duration: 300ms;
+}
+
+main {
+    height: 55em;
+    position: relative;
+}
+
+.hero_container {
+    background-color: greenyellow;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
 }
 
 @media (width < 1000px) {
