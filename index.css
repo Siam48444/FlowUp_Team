@@ -187,6 +187,7 @@ main {
     width: 80%;
     height: 100%;
     display: flex;
+    padding: 2.2em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -196,6 +197,7 @@ main {
 .hero_container h1 {
     color: var(--Black);
     font-family: var(--Sora_Regular);
+    text-align: center;
     font-weight: 500;
     font-size: 4em;
 }
@@ -214,6 +216,7 @@ main {
 }
 
 .hero_btn_container {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -256,6 +259,32 @@ main {
 
     #hamburger_btn {
         display: flex;
+    }
+
+    .hero_container {
+        width: 90%;
+    }
+
+    .hero_container h1 {
+        font-size: 3.3em;
+    }
+
+    .hero_container h3 {
+        font-size: 1em;
+    }
+}
+
+@media (width < 700px) {
+    .hero_container {
+        justify-content: start;
+    }
+
+    .hero_btn_container {
+        flex-direction: column;
+    }
+
+    .hero_btn {
+        width: 100%;
     }
 }
 
