@@ -181,7 +181,7 @@ main {
 }
 
 .hero_container {
-    background-color: var(--Light_Blue);
+    background-color: yellowgreen;
     width: 80%;
     height: 100%;
     display: flex;
@@ -189,7 +189,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 1em;
-    padding: 2em 0;
+    padding: 3em 0;
+    border-radius: 2em;
 }
 
 @media (width < 1000px) {
