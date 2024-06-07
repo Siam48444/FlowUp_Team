@@ -196,7 +196,7 @@ main {
     font-size: 4em;
 }
 
-.hero_container h1 span {
+.blue_text {
     color: var(--Primary_Blue);
 }
 
@@ -290,13 +290,15 @@ main {
     font-size: 0.9em;
     font-weight: 400;
     text-align: center;
+    line-height: 3;
     color: var(--Gray);
 }
 
 .features_title h1 {
     font-family: var(--Sora_Regular);
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-weight: 500;
+    line-height: 1;
     text-align: center;
     color: var(--Black);
 }
