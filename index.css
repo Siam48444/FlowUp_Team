@@ -89,7 +89,7 @@ nav {
     transition-duration: 300ms;
 }
 
-.nav_links_left:hover:not(#current_page) {
+.nav_links_left:hover:not(.current_page) {
     color: var(--Primary_Blue);
 }
 
@@ -100,7 +100,7 @@ nav {
     gap: 0.5em;
 }
 
-#hamburger_btn {
+.hamburger_btn {
     display: none;
     flex-direction: column;
     align-items: center;
@@ -113,7 +113,7 @@ nav {
     cursor: pointer;
 }
 
-#ham_btn_lines {
+.ham_btn_lines {
     background-color: var(--Black);
     width: 100%;
     height: 0.12em;
@@ -244,6 +244,27 @@ main {
     background-position: top;
 }
 
+.companies_section {
+    height: 8em;
+    position: relative;
+    padding-inline: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companies_container svg {
+    height: 2em;
+}
+
 .a {
     height: 200vh;
 }
@@ -260,7 +281,7 @@ main {
         display: none;
     }
 
-    #hamburger_btn {
+    .hamburger_btn {
         display: flex;
     }
 
