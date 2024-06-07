@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     text-decoration: none;
+
+    &::selection {
+        background-color: var(--Primary_Orange);
+        color: var(--Black);
+    }
 }
 
 body,
@@ -241,6 +246,11 @@ main {
     border: solid 0.01em linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
 }
 
+.blue_gradient_btn:hover {
+    background-color: var(--Primary_Blue);
+    background-image: none;
+}
+
 .hero_image_container {
     width: 100%;
     height: 70%;
@@ -269,7 +279,7 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 4em;
+    gap: 6em;
 }
 
 .companies_container svg {
@@ -468,11 +478,28 @@ main {
     }
 
     .features_title h1 {
-        font-size: 1.7em;
+        font-size: 1.8em;
     }
 
-    .feature_image {
+    .features_section {
+        padding-inline: 5%;
+    }
+
+    .features_container {
+        padding-block: 2em;
+    }
+
+    .feature_image,
+    .feature_info {
         width: 100%;
+    }
+
+    .feature_info h1 {
+        font-size: 1.6em;
+    }
+
+    .feature_info h3 {
+        font-size: 1em;
     }
 }
 
