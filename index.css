@@ -34,7 +34,7 @@ html {
     --Primary_Orange: rgb(255, 92, 33);
     --Black: rgb(17, 17, 17);
     --White: rgb(250, 250, 250);
-    --Gray: rgb(113, 113, 117);
+    --Gray: rgb(88, 88, 90);
     --Light_Gray: rgb(221, 220, 220);
 
     /* Fonts */
@@ -324,13 +324,37 @@ main {
 }
 
 .feature_image {
-    background-image: url(Images/Feature_1.webp);
+    background-image: url(Images/Feature_2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2em;
     height: 90%;
-    width: 70%;
+    width: 60%;
+}
+
+.feature_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+    width: 40%;
+}
+
+.feature_info h1 {
+    font-family: var(--Sora_Regular);
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--Black);
+}
+
+.feature_info h3 {
+    font-family: var(--Inter_Thin);
+    font-size: 1.1em;
+    font-weight: 400;
+    color: var(--Gray);
 }
 
 .a {
