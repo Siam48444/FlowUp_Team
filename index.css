@@ -167,12 +167,15 @@ nav {
 }
 
 main {
+    width: min(110em, 100%);
+    margin: auto;
     height: 55em;
     padding-top: 6em;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .hero_container {
@@ -245,6 +248,8 @@ main {
 }
 
 .companies_section {
+    width: min(110em, 100%);
+    margin: auto;
     height: fit-content;
     position: relative;
     padding-inline: 10%;
@@ -269,13 +274,16 @@ main {
 }
 
 .features_section {
+    position: relative;
+    width: min(110em, 100%);
+    margin: auto;
     height: fit-content;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
-    position: relative;
-    padding: 5em 10%;
+    padding: 3em;
+
 }
 
 .features_title {
@@ -304,7 +312,7 @@ main {
 }
 
 .features_container {
-    width: 100%;
+    width: 80%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -320,7 +328,7 @@ main {
     justify-content: space-between;
     gap: 2em;
     width: 100%;
-    height: 35em;
+    height: 30giem;
 }
 
 .feature_image {
@@ -372,7 +380,7 @@ main {
 .feature_info:nth-child(1) h1,
 .feature_info:nth-child(1) h3 {
     text-align: right;
-} 
+}
 
 .feature_btn {
     padding: 1em 1.5em;
