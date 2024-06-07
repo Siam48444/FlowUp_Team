@@ -275,7 +275,7 @@ main {
     justify-content: start;
     flex-direction: column;
     position: relative;
-    padding: 10%;
+    padding: 5em 10%;
 }
 
 .features_title {
@@ -329,7 +329,7 @@ main {
     background-repeat: no-repeat;
     border-radius: 2em;
     height: 90%;
-    width: 60%;
+    width: 50%;
 }
 
 .feature_image:nth-child(1) {
@@ -344,7 +344,7 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 2em;
-    width: 40%;
+    width: 50%;
 }
 
 .feature_info:nth-child(1) {
@@ -369,9 +369,10 @@ main {
     color: var(--Gray);
 }
 
-.feature_info h3 {
+.feature_info:nth-child(1) h1,
+.feature_info:nth-child(1) h3 {
     text-align: right;
-}
+} 
 
 .feature_btn {
     padding: 1em 1.5em;
