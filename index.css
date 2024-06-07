@@ -241,7 +241,7 @@ main {
     background-image: url(Images/Hero_Image.webp);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .a {
