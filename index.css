@@ -175,7 +175,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .hero_container {
@@ -287,7 +286,6 @@ main {
     justify-content: start;
     flex-direction: column;
     padding: 3em;
-
 }
 
 .features_title {
@@ -323,7 +321,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 3em;
-    padding-block: 2em;
+    padding-block: 5em;
 }
 
 .features {
@@ -359,13 +357,6 @@ main {
     width: 50%;
 }
 
-.feature_info:nth-child(1) {
-    align-items: flex-end;
-}
-.feature_info:nth-child(2) {
-    align-items: flex-start;
-}
-
 .feature_info h1 {
     font-family: var(--Sora_Regular);
     font-size: 2em;
@@ -379,11 +370,6 @@ main {
     font-size: 1.1em;
     font-weight: 400;
     color: var(--Gray);
-}
-
-.feature_info:nth-child(1) h1,
-.feature_info:nth-child(1) h3 {
-    text-align: right;
 }
 
 .feature_btn {
@@ -436,6 +422,14 @@ main {
     .companies_container svg {
         height: 1.6em;
     }
+
+    .features_container {
+        width: 100%;
+    }
+
+    .features_title {
+        width: 100%;
+    }
 }
 
 @media (width < 700px) {
@@ -463,6 +457,22 @@ main {
 
     .companies_container svg {
         height: 1.4em;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .features_title p {
+        font-size: 0.8em;
+    }
+
+    .features_title h1 {
+        font-size: 1.7em;
+    }
+
+    .feature_image {
+        width: 100%;
     }
 }
 
