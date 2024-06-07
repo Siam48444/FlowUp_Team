@@ -324,7 +324,6 @@ main {
 }
 
 .feature_image {
-    background-image: url(Images/Feature_2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -333,13 +332,26 @@ main {
     width: 60%;
 }
 
+.feature_image:nth-child(1) {
+    background-image: url(Images/Feature_1.webp);
+}
+.feature_image:nth-child(2) {
+    background-image: url(Images/Feature_2.webp);
+}
+
 .feature_info {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 2em;
     width: 40%;
+}
+
+.feature_info:nth-child(1) {
+    align-items: flex-end;
+}
+.feature_info:nth-child(2) {
+    align-items: flex-start;
 }
 
 .feature_info h1 {
@@ -355,6 +367,10 @@ main {
     font-size: 1.1em;
     font-weight: 400;
     color: var(--Gray);
+}
+
+.feature_info h3 {
+    text-align: right;
 }
 
 .feature_btn {
