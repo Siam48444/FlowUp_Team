@@ -336,8 +336,8 @@ main {
 .feature_info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: start;
+    justify-content: center;
     gap: 2em;
     width: 40%;
 }
@@ -355,6 +355,17 @@ main {
     font-size: 1.1em;
     font-weight: 400;
     color: var(--Gray);
+}
+
+.feature_btn {
+    padding: 1em 1.5em;
+    border-radius: 10em;
+    border: solid 0.01em var(--Light_Gray);
+    color: var(--Black);
+    font-family: var(--Inter_Thin);
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
 }
 
 .a {
