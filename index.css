@@ -269,7 +269,7 @@ main {
 }
 
 .features_section {
-    height: 55em;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -301,6 +301,36 @@ main {
     line-height: 1;
     text-align: center;
     color: var(--Black);
+}
+
+.features_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding-block: 2em;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    width: 100%;
+    height: 35em;
+}
+
+.feature_image {
+    background-image: url(Images/Feature_1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+    height: 90%;
+    width: 70%;
 }
 
 .a {
