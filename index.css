@@ -245,9 +245,10 @@ main {
 }
 
 .companies_section {
-    height: 8em;
+    height: fit-content;
     position: relative;
     padding-inline: 10%;
+    padding-bottom: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,11 +260,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4em;
 }
 
 .companies_container svg {
-    height: 1.8em;
+    height: 1.9em;
 }
 
 .a {
@@ -331,7 +333,7 @@ main {
     }
 
     .companies_container svg {
-        height: 1.3em;
+        height: 1.4em;
     }
 }
 
