@@ -254,7 +254,6 @@ main {
 }
 
 .companies_container {
-    background-color: yellowgreen;
     height: 100%;
     width: 100%;
     display: flex;
@@ -264,7 +263,7 @@ main {
 }
 
 .companies_container svg {
-    height: 2em;
+    height: 1.8em;
 }
 
 .a {
@@ -302,6 +301,10 @@ main {
     .companies_section {
         padding-inline: 5%;
     }
+
+    .companies_container svg {
+        height: 1.6em;
+    }
 }
 
 @media (width < 700px) {
@@ -325,6 +328,10 @@ main {
     .hero_container h3 {
         width: 100%;
         font-size: 1em;
+    }
+
+    .companies_container svg {
+        height: 1.3em;
     }
 }
 
