@@ -327,7 +327,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3em;
 }
 
 .features {
@@ -348,18 +347,11 @@ main {
     width: 50%;
 }
 
-.feature_image:nth-child(1) {
-    background-image: url(Images/Feature_1.webp);
-}
-.feature_image:nth-child(2) {
-    background-image: url(Images/Feature_2.webp);
-}
-
 .feature_info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    gap: 2em;
+    gap: 1em;
     width: 50%;
 }
 
@@ -430,6 +422,10 @@ main {
         height: 1.6em;
     }
 
+    .features_section {
+        padding: 3em 5%;
+    }
+
     .features_container {
         width: 100%;
     }
@@ -478,12 +474,9 @@ main {
         font-size: 1.8em;
     }
 
-    .features_section {
-        padding-inline: 5%;
-    }
-
     .features_container {
         padding-block: 2em;
+        gap: 5em;
     }
 
     .feature_image,
