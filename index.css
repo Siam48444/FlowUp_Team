@@ -264,26 +264,25 @@ main {
     width: min(110em, 100%);
     margin: auto;
     height: fit-content;
+    background-color: red;
     position: relative;
-    padding-inline: 10%;
-    padding: 3em;
+    padding-block: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .companies_container {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 6em;
+    gap: 5em;
 }
 
 .companies_container svg {
-    height: 1.9em;
+    height: 1.8em;
 }
 
 .features_section {
@@ -391,6 +390,7 @@ main {
     font-size: 1em;
     font-weight: 500;
     text-align: center;
+    width: fit-content;
 }
 
 .a {
@@ -509,7 +509,7 @@ main {
     }
 
     .nav_logo svg {
-        height: 1.2em;
+        height: 1.3em;
     }
 
     .hero_container {
