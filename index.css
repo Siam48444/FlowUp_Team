@@ -422,7 +422,7 @@ main {
     grid-auto-flow: column;
     place-items: center;
     padding-block: 4em;
-    gap: 2em;
+    gap: 3em;
 }
 
 .results {
@@ -434,8 +434,22 @@ main {
 
 .results svg {
     height: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     color: var(--Primary_Blue);
+}
+
+.results h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 3.5em;
+    color: var(--Black);
+}
+
+.results p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--Black);
 }
 
 .a {
