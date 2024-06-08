@@ -288,12 +288,11 @@ main {
     position: relative;
     width: min(110em, 100%);
     margin: auto;
-    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
-    padding: 3em 10%;
+    padding-block: 3em;
 }
 
 .features_title {
@@ -322,7 +321,7 @@ main {
 }
 
 .features_container {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
