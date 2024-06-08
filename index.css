@@ -386,10 +386,12 @@ main {
     width: min(110em, 100%);
     margin: auto;
     position: relative;
-    padding: 2em 10%;
+    padding-block: 2em;
 }
 
 .results_title {
+    width: 80%;
+    margin: auto;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -411,6 +413,12 @@ main {
     line-height: 1;
     text-align: center;
     color: var(--Black);
+}
+
+.results_container {
+    background-color: yellowgreen;
+    width: 80%;
+    margin: auto;
 }
 
 .a {
