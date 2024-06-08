@@ -381,6 +381,38 @@ main {
     width: 100%;
 }
 
+.results_section {
+    height: 20em;
+    width: min(110em, 100%);
+    margin: auto;
+    position: relative;
+    padding: 2em 10%;
+}
+
+.results_title {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.results_title p {
+    font-family: var(--Inter_Thin);
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3;
+    color: var(--Gray);
+}
+
+.results_title h3 {
+    font-family: var(--Sora_Regular);
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: var(--Black);
+}
+
 .a {
     height: 200vh;
 }
