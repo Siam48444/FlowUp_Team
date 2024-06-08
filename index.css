@@ -401,17 +401,15 @@ main {
     font-family: var(--Inter_Thin);
     font-size: 0.9em;
     font-weight: 400;
-    text-align: center;
     line-height: 3;
     color: var(--Gray);
 }
 
 .results_title h3 {
     font-family: var(--Sora_Regular);
-    font-size: 2em;
     font-weight: 500;
+    font-size: 2em;
     line-height: 1;
-    text-align: center;
     color: var(--Black);
 }
 
@@ -560,6 +558,14 @@ main {
 
     .feature_info h3 {
         font-size: 1em;
+    }
+
+    .results_title p {
+        font-size: 0.8em;
+    }
+
+    .results_title h3 {
+        font-size: 1.5em;
     }
 }
 
