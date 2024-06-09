@@ -332,7 +332,7 @@ main {
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
-    gap: 1em;
+    gap: 2em;
     width: 60%;
 }
 
@@ -370,6 +370,20 @@ main {
     height: 3.3em;
     border-radius: 50%;
     outline: solid 0.2em var(--Primary_Blue);
+}
+
+.testimonial_user_detail h6 {
+    color: var(--Black);
+    font-size: 1em;
+    font-weight: 500;
+    font-family: var(--Inter_Thin);
+}
+
+.testimonial_user_detail p {
+    color: var(--Gray);
+    font-family: var(--Inter_Thin);
+    font-size: 0.8em;
+    font-weight: 400;
 }
 
 .a {
