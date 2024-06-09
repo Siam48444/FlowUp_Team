@@ -447,6 +447,14 @@ main {
     .testimonial_container {
         width: 90%;
     }
+
+    .testimonial_image h1 {
+        font-size: 3.5em;
+    }
+
+    .testimonial_image p {
+        font-size: 0.8em;
+    }
 }
 
 @media (width < 700px) {
