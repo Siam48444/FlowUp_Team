@@ -270,7 +270,6 @@ main {
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
     padding-block: 4em;
-    /* gap: 3em; */
 }
 
 .results {
@@ -279,8 +278,7 @@ main {
     align-items: start;
     justify-content: space-between;
     width: 10em;
-    height: 10em;
-    background-color: yellowgreen;
+    background-color: red;
 }
 
 .results svg {
@@ -443,6 +441,14 @@ main {
 
     .hero_image_container {
         width: 120%;
+    }
+
+    .results {
+        width: 8em;
+    }
+
+    .results svg {
+        margin-bottom: 1em;
     }
 
     .results h1 {
