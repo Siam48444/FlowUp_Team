@@ -121,3 +121,30 @@ nav {
     transition-property: color;
     transition-duration: 300ms;
 }
+
+@media (width < 1000px) {
+    nav {
+        inset: 0 0 auto 0;
+        padding: 1em 3em;
+    }
+
+    .nav_left_right,
+    .user,
+    .get_started {
+        display: none;
+    }
+
+    .hamburger_btn {
+        display: flex;
+    }
+}
+
+@media (width < 500px) {
+    nav {
+        padding: 1em 1.5em;
+    }
+
+    .nav_logo svg {
+        height: 1.3em;
+    }
+}
