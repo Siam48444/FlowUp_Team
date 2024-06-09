@@ -85,17 +85,6 @@ nav {
     border: solid 0.01em var(--Light_Gray);
 }
 
-.orange_hover_btn {
-    transition-property: background-color, color, border-color;
-    transition-duration: 300ms;
-}
-
-.orange_hover_btn:hover {
-    background-color: var(--Primary_Orange);
-    color: var(--White);
-    border-color: var(--Primary_Orange);
-}
-
 .user {
     display: flex;
     align-items: center;

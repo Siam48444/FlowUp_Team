@@ -54,14 +54,6 @@ main {
     font-size: 4em;
 }
 
-.blue_text {
-    color: transparent;
-    background-image: linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
-    background-clip: text;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .hero_container h3 {
     color: var(--Black);
     font-family: var(--Inter_Thin);
@@ -87,19 +79,6 @@ main {
     font-size: 1em;
     font-weight: 600;
     text-align: center;
-}
-
-.blue_gradient_btn {
-    border-color: transparent;
-    color: var(--White);
-    background-image: linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
-    background-repeat: no-repeat;
-    border: solid 0.01em linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
-}
-
-.blue_gradient_btn:hover {
-    background-color: var(--Primary_Blue);
-    background-image: none;
 }
 
 .hero_image_container {
@@ -302,7 +281,7 @@ main {
 }
 
 .a {
-    height: 200vh;
+    height: 100vh;
 }
 
 @media (width < 1000px) {

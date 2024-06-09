@@ -14,7 +14,7 @@ appear_on_scroll_elements = document.querySelectorAll(".appear_on_scroll");
 appear_on_scroll_elements.forEach((scroll_element) => {
     gsap.from(scroll_element, {
         opacity: 0,
-        duration: 0.8,
+        duration: 0.5,
         y: "80",
         scrollTrigger: {
             trigger: scroll_element,
