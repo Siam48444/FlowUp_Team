@@ -278,12 +278,12 @@ main {
     align-items: start;
     justify-content: space-between;
     width: 10em;
-    background-color: red;
+    padding-bottom: 2em;
 }
 
 .results svg {
     height: 2em;
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
     color: var(--Primary_Blue);
 }
 
@@ -449,6 +449,7 @@ main {
 
     .results svg {
         margin-bottom: 1em;
+        height: 1.5em;
     }
 
     .results h1 {
