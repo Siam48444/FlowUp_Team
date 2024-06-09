@@ -1,27 +1,3 @@
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    text-decoration: none;
-
-    &::selection {
-        background-color: var(--Primary_Orange);
-        color: var(--Black);
-    }
-}
-
-body,
-html {
-    scroll-behavior: smooth;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
 main {
     width: min(110em, 100%);
     margin: auto;
@@ -330,6 +306,53 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 2em;
+}
+
+.testimonial_image h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 4em;
+    color: var(--White);
+}
+
+.testimonial_image p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 0.9em;
+    color: var(--White);
+}
+
+.testimonial_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 1em;
+    width: 60%;
+}
+
+.testimonial_rating {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.2em;
+}
+
+.testimonial_rating svg {
+    height: 1.2em;
+    color: var(--Primary_Blue);
+}
+
+.testimonial_info h4 {
+    color: var(--Black);
+    font-family: var(--Sora_Regular);
+    font-size: 1.5em;
+    font-weight: 500;
 }
 
 .a {
