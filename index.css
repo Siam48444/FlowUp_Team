@@ -264,7 +264,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5em;
+    gap: 8em;
     margin: auto;
 }
 
@@ -351,7 +351,7 @@ main {
 .testimonial_info h4 {
     color: var(--Black);
     font-family: var(--Sora_Regular);
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 500;
 }
 
@@ -366,10 +366,10 @@ main {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 3.3em;
-    height: 3.3em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
-    outline: solid 0.2em var(--Primary_Blue);
+    outline: solid 0.15em var(--Primary_Blue);
 }
 
 .testimonial_user_detail h6 {
@@ -442,6 +442,10 @@ main {
 
     .results svg {
         margin-bottom: 2em;
+    }
+
+    .testimonial_container {
+        width: 90%;
     }
 }
 
