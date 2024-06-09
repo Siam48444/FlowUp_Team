@@ -355,6 +355,22 @@ main {
     font-weight: 500;
 }
 
+.testimonial_profile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1em;
+}
+
+.testimonial_user_image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3.3em;
+    height: 3.3em;
+    border-radius: 50%;
+}
+
 .a {
     height: 100vh;
 }
