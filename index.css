@@ -447,6 +447,10 @@ main {
         width: 90%;
     }
 
+    .testimonial_title {
+        width: 90%;
+    }
+
     .testimonial_image h1 {
         font-size: 3.5em;
     }
@@ -518,6 +522,15 @@ main {
     }
 
     .results_title h3 {
+        font-size: 1.5em;
+    }
+
+    .testimonial_title p {
+        font-size: 0.8em;
+    }
+
+    .testimonial_title h1 {
+        font-size: 0.8em;
         font-size: 1.5em;
     }
 
