@@ -672,6 +672,27 @@ main {
     .teamwork_title h1 {
         font-size: 1.5em;
     }
+
+    .teamwork_container {
+        padding-block: 1em;
+    }
+
+    .teamwork_info {
+        width: 65%;
+    }
+
+    .teamwork_info h4 {
+        font-size: 1.2em;
+    }
+
+    .teamwork_info p {
+        font-size: 0.9em;
+    }
+
+    .teamwork_image {
+        width: 35%;
+        height: 15em;
+    }
 }
 
 @media (width < 500px) {
