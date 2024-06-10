@@ -386,6 +386,36 @@ main {
     font-weight: 400;
 }
 
+.teamwork_section {
+    width: min(110em, 100%);
+    padding-block: 3em;
+    margin: auto;
+    position: relative;
+}
+
+.teamwork_title {
+    width: 80%;
+    margin: auto;
+}
+
+.teamwork_title p {
+    font-family: var(--Inter_Thin);
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3;
+    color: var(--Gray);
+}
+
+.teamwork_title h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1;
+    color: var(--Black);
+    text-align: center;
+}
+
 .a {
     height: 100vh;
 }
