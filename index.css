@@ -537,6 +537,11 @@ main {
     .testimonial_image p {
         font-size: 0.8em;
     }
+
+    .teamwork_title,
+    .teamwork_container {
+        width: 90%;
+    }
 }
 
 @media (width < 750px) {
@@ -614,7 +619,6 @@ main {
     }
 
     .testimonial_title h1 {
-        font-size: 0.8em;
         font-size: 1.5em;
     }
 
@@ -659,6 +663,14 @@ main {
     .testimonial_user_image {
         width: 2.5em;
         height: 2.5em;
+    }
+
+    .teamwork_title p {
+        font-size: 0.8em;
+    }
+
+    .teamwork_title h1 {
+        font-size: 1.5em;
     }
 }
 
