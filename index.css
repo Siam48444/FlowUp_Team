@@ -789,15 +789,25 @@ main {
     }
 
     .teamwork_container {
-        padding-block: 0;
+        padding-block: 2.5em;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .teamwork_info,
+    .teamwork_image {
+        width: 100%;
     }
 
     .teamwork_info h4 {
-        font-size: 1em;
+        font-size: 1.1em;
+        margin: auto;
+        text-align: center;
     }
 
     .teamwork_info p {
         font-size: 0.8em;
+        text-align: center;
     }
 }
 
