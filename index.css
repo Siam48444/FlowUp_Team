@@ -459,6 +459,25 @@ main {
     background-repeat: no-repeat;
 }
 
+.teamwork_get_started_btn_container {
+    width: min(110em, 100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5em;
+}
+
+.teamwork_get_started_btn_container a {
+    padding: 1em 1.5em;
+    border: solid 0.1em var(--Light_Gray);
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Black);
+    border-radius: 9em;
+}
+
 .a {
     height: 100vh;
 }
@@ -691,6 +710,11 @@ main {
     .teamwork_image {
         width: 35%;
         height: 15em;
+    }
+
+    .teamwork_get_started_btn_container a {
+        width: 90%;
+        text-align: center;
     }
 }
 
