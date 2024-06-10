@@ -263,7 +263,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8em;
+    gap: 3em;
     margin: auto;
 }
 
@@ -525,6 +525,10 @@ main {
         font-size: 1.5em;
     }
 
+    .results_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .testimonial_title p {
         font-size: 0.8em;
     }
@@ -534,8 +538,47 @@ main {
         font-size: 1.5em;
     }
 
-    .results_container {
-        grid-template-columns: repeat(2, 1fr);
+    .testimonial_container {
+        flex-direction: column;
+        gap: 2em;
+        padding-bottom: 3em;
+    }
+
+    .testimonial_image {
+        width: 100%;
+        height: fit-content;
+        align-items: start;
+        justify-content: center;
+    }
+
+    .testimonial_image h1 {
+        font-size: 2.8em;
+    }
+
+    .testimonial_info {
+        width: 100%;
+        gap: 0.5em;
+    }
+
+    .testimonial_rating svg {
+        height: 1em;
+    }
+
+    .testimonial_info h4 {
+        font-size: 1.2em;
+    }
+
+    .testimonial_user_detail h6 {
+        font-size: 0.9em;
+    }
+
+    .testimonial_user_detail p {
+        font-size: 0.7em;
+    }
+
+    .testimonial_user_image {
+        width: 2.5em;
+        height: 2.5em;
     }
 }
 
