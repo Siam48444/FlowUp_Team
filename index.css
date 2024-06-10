@@ -416,7 +416,46 @@ main {
     text-align: center;
 }
 
+.teamwork_container {
+    padding-block: 2em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
 
+.teamwork_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5em;
+    width: 50%;
+}
+
+.teamwork_info h4 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 1.5em;
+    color: var(--Black);
+}
+
+.teamwork_info p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
+}
+
+.teamwork_image {
+    width: 50%;
+    height: 30em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 .a {
     height: 100vh;
