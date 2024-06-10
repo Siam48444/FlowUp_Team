@@ -140,7 +140,6 @@ main {
     justify-content: space-between;
     gap: 2em;
     width: 100%;
-    border-bottom: solid 0.1em var(--Light_Gray);
 }
 
 .feature_image {
@@ -708,6 +707,13 @@ main {
         width: 120%;
     }
 
+    .features_title h1,
+    .results_title h3,
+    .testimonial_title h1,
+    .teamwork_title h1 {
+        font-size: 1.4em;
+    }
+
     .feature_image {
         height: 10em;
     }
@@ -717,7 +723,11 @@ main {
     }
 
     .feature_info h1 {
-        font-size: 1.3em;
+        font-size: 1.1em;
+    }
+
+    .feature_info h3 {
+        font-size: 0.9em;
     }
 
     .results {
@@ -752,6 +762,18 @@ main {
     .testimonial_profile {
         transform: scale(0.85);
         transform-origin: top left;
+    }
+
+    .teamwork_container {
+        padding-block: 0;
+    }
+
+    .teamwork_info h4 {
+        font-size: 1em;
+    }
+
+    .teamwork_info p {
+        font-size: 0.8em;
     }
 }
 
