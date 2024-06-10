@@ -15,7 +15,7 @@ appear_on_scroll_elements.forEach((scroll_element) => {
     gsap.from(scroll_element, {
         opacity: 0,
         duration: 0.6,
-        y: "80",
+        y: "50",
         scrollTrigger: {
             trigger: scroll_element,
             start: "top 80%",
