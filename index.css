@@ -417,7 +417,7 @@ main {
 }
 
 .teamwork_container {
-    padding-block: 2em;
+    padding-block: 1em;
     width: 80%;
     margin: auto;
     display: flex;
