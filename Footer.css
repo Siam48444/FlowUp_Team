@@ -103,7 +103,7 @@ footer {
 }
 
 .footer_top_right_col a {
-    font-family: var(--Inter_Regular);
+    font-family: var(--Inter_Thin);
     font-weight: 400;
     font-size: 0.9em;
     color: var(--White);
@@ -135,7 +135,7 @@ footer {
 }
 
 .footer_bottom_right a {
-    font-family: var(--Inter_Regular);
+    font-family: var(--Inter_Thin);
     font-weight: 400;
     font-size: 0.9em;
     color: var(--White);
