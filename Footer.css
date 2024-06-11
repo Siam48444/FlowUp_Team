@@ -88,7 +88,6 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 2em;
-    width: 40%;
 }
 
 .footer_top_right_col {
@@ -118,4 +117,8 @@ footer {
 
 .footer_top_right_col a:hover {
     color: var(--Primary_Blue);
+}
+
+.footer_bottom {
+
 }
