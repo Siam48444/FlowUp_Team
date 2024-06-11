@@ -12,3 +12,24 @@ footer {
     height: 100%;
     margin: auto;
 }
+
+.footer_top {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5em;
+}
+
+.footer_top_left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.footer_top_left a svg {
+    height: 1.5em;
+    color: var(--White);
+}
