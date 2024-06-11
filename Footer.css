@@ -17,7 +17,7 @@ footer {
     justify-content: space-between;
     gap: 5em;
     padding-block: 5em;
-    border-bottom: solid 0.1em var(--Gray);
+    border-bottom: solid 0.01em var(--Gray);
 }
 
 .footer_top_left {
@@ -233,7 +233,7 @@ footer {
     }
 
     .footer_top_right_col {
-        border-bottom: solid 0.1em var(--Gray);
+        border-bottom: solid 0.01em var(--Gray);
         width: 100%;
         padding-block: 1em;
     }

@@ -298,7 +298,7 @@ main {
     justify-content: space-between;
     gap: 2.5em;
     padding-bottom: 3em;
-    border-bottom: solid 0.1em var(--Light_Gray);
+    border-bottom: solid 0.01em var(--Light_Gray);
 }
 
 .testimonial_image {
@@ -426,7 +426,7 @@ main {
     align-items: center;
     justify-content: space-between;
     gap: 1em;
-    border-bottom: solid 0.1em var(--Light_Gray);
+    border-bottom: solid 0.01em var(--Light_Gray);
 }
 
 .teamwork_info {
@@ -471,7 +471,7 @@ main {
 
 .teamwork_get_started_btn_container a {
     padding: 1em 1.5em;
-    border: solid 0.1em var(--Light_Gray);
+    border: solid 0.01em var(--Light_Gray);
     font-family: var(--Inter_Thin);
     font-weight: 400;
     font-size: 1em;
