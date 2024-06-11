@@ -48,12 +48,12 @@ footer {
     align-items: center;
     justify-content: left;
     gap: 1em;
-    width: 90%;
-    height: 3.5em;
+    width: 100%;
+    height: 3em;
 }
 
 .footer_input input {
-    padding-inline: 1.2em;
+    padding-inline: 1em;
     width: 60%;
     height: 100%;
     border-radius: 0.5em;
@@ -62,4 +62,14 @@ footer {
     font-family: var(--Sora_Regular);
     font-size: 1em;
     color: var(--Black);
+}
+
+.footer_input button {
+    height: 100%;
+    padding-inline: 1.5em;
+    border-radius: 9em;
+    cursor: pointer;
+    font-family: var(--Inter_Regular);
+    font-size: 1em;
+    font-weight: 500;
 }
