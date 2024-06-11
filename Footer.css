@@ -194,6 +194,10 @@ footer {
         border-bottom: none;
     }
 
+    .footer_top_left a svg {
+        height: 1.3em;
+    }
+
     .footer_input {
         flex-direction: column;
         align-items: start;
