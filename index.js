@@ -5,7 +5,7 @@ gsap.from("nav", {
     ease: "power1.out",
 });
 gsap.from(".hero_container", {
-    y: "10%",
+    y: "5`%",
     opacity: 0,
     duration: 1,
     ease: "power1.out",
