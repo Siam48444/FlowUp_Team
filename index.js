@@ -2,11 +2,13 @@
 gsap.from("nav", {
     y: "-30%",
     duration: 1,
+    ease: "power1.out",
 });
-gsap.from(".hero_image_container", {
+gsap.from(".hero_container", {
     y: "10%",
     opacity: 0,
     duration: 1,
+    ease: "power1.out",
 });
 
 // Appearing on scroll animation.
