@@ -27,6 +27,7 @@ main {
     font-family: var(--Sora_Regular);
     text-align: center;
     font-weight: 500;
+    line-height: 1;
     font-size: 4em;
 }
 
@@ -478,10 +479,6 @@ main {
     border-radius: 9em;
 }
 
-.a {
-    height: 100vh;
-}
-
 @media (width < 1000px) {
     .hero_container {
         width: 90%;
@@ -724,7 +721,7 @@ main {
     }
 
     .hero_container h1 {
-        font-size: 2.6em;
+        font-size: 2.5em;
     }
 
     .hero_image_container {

@@ -1,13 +1,22 @@
 nav {
     z-index: 9;
     position: fixed;
-    inset: 0 10% auto 10%;
-    padding: 0.5em 0;
+    inset: 0 0 auto 0;
+    width: min(110em, 100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White);
+}
+
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
     border-bottom: solid 0.01em var(--Light_Gray);
-    background-color: var(--White);
+    padding-block: 0.5em;
 }
 
 .nav_left {
@@ -112,9 +121,9 @@ nav {
 }
 
 @media (width < 1000px) {
-    nav {
-        inset: 0 0 auto 0;
-        padding: 1em 3em;
+    .navigation {
+        width: 100%;
+        padding: 1em 1.5em;
     }
 
     .nav_left_right,
@@ -129,10 +138,6 @@ nav {
 }
 
 @media (width < 500px) {
-    nav {
-        padding: 1em 1.5em;
-    }
-
     .nav_logo svg {
         height: 1.3em;
     }
