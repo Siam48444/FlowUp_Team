@@ -15,9 +15,9 @@ gsap.from(".hero_container", {
 appear_on_scroll_elements = document.querySelectorAll(".appear_on_scroll");
 appear_on_scroll_elements.forEach((scroll_element) => {
     gsap.from(scroll_element, {
-        ease: "power1.out",
         opacity: 0,
         duration: 0.6,
+        ease: "power1.out",
         y: "50",
         scrollTrigger: {
             trigger: scroll_element,
@@ -26,4 +26,13 @@ appear_on_scroll_elements.forEach((scroll_element) => {
     });
 });
 
-// Footer appearing 
+// Footer appearing animation.
+footer = document.querySelector("footer");
+gsap.from(footer, {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: footer,
+        start: "top 95%",
+    },
+});

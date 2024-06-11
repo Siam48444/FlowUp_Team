@@ -20,6 +20,7 @@ html {
     margin: 0;
     padding: 0;
     position: relative;
+    background-color: var(--White);
 }
 
 @font-face {
