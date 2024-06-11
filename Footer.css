@@ -19,7 +19,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 8em;
+    gap: 5em;
     padding-block: 5em;
     border-bottom: solid 0.1em var(--White);
 }
@@ -71,14 +71,45 @@ footer {
     padding-inline: 1.5em;
     border-radius: 9em;
     cursor: pointer;
-    font-family: var(--Inter_Regular);
+    font-family: var(--Sora_Regular);
     font-size: 1em;
     font-weight: 500;
 }
 
 .footer_top_left p {
-    font-family: var(--Inter_Regular);
+    font-family: var(--Sora_Regular);
     font-size: 0.8em;
     line-height: 1;
+    color: var(--White);
+}
+
+.footer_top_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 40%;
+}
+
+.footer_top_right_col {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.footer_top_right_col h6 {
+    font-family: var(--Sora_Regular);
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--White);
+    margin-bottom: 1em;
+}
+
+.footer_top_right_col a {
+    font-family: var(--Inter_Regular);
+    font-weight: 400;
+    font-size: 0.9em;
     color: var(--White);
 }
