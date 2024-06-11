@@ -46,6 +46,20 @@ footer {
 .footer_input {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.5em;
+    justify-content: left;
+    gap: 1em;
+    width: 90%;
+    height: 3.5em;
+}
+
+.footer_input input {
+    padding-inline: 1.2em;
+    width: 60%;
+    height: 100%;
+    border-radius: 0.5em;
+    border: none;
+    background-color: var(--White);
+    font-family: var(--Sora_Regular);
+    font-size: 1em;
+    color: var(--Black);
 }

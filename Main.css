@@ -8,8 +8,8 @@
     text-decoration: none;
 
     &::selection {
-        background-color: var(--Primary_Orange);
-        color: var(--Black);
+        background-color: var(--Primary_Blue);
+        color: var(--White);
     }
 }
 
