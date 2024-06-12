@@ -780,11 +780,6 @@ main {
         font-size: 0.9em;
     }
 
-    .testimonial_profile {
-        transform: scale(0.85);
-        transform-origin: top left;
-    }
-
     .teamwork_container {
         padding-block: 2.5em;
         flex-direction: column;

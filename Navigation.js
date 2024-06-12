@@ -1,7 +1,6 @@
 // After loading animations.
-gsap.from(".hero_container", {
-    y: "50",
-    opacity: 0,
+gsap.from("nav", {
+    y: "-50",
     duration: 1,
     ease: "power1.out",
 });
