@@ -541,6 +541,7 @@ main {
 .question_main svg {
     color: var(--Black);
     height: 1em;
+    transition: rotate 300ms;
 }
 
 .question_answer p {
@@ -556,9 +557,13 @@ main {
     transition: grid-template-rows 300ms, padding-top 300ms;
 }
 
-.questions:hover .question_answer {
+.answer_open {
     grid-template-rows: 1fr;
     padding-top: 1em;
+}
+
+.svg_rotated {
+    rotate: 45deg;
 }
 
 .question_answer > div {
