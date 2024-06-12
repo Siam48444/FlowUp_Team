@@ -1,0 +1,9 @@
+.demo_section {
+    background-color: red;
+    height: 100vh;
+    width: min(110em, 100%);
+    position: relative;
+    margin: auto;
+    padding-block: 8em;
+}
+
