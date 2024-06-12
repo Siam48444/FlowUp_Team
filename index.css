@@ -492,7 +492,6 @@ main {
     background-image: linear-gradient(var(--Light_Blue), var(--White));
 }
 
-
 .questions_title h1 {
     text-align: center;
     font-family: var(--Sora_Regular);
@@ -519,10 +518,29 @@ main {
 }
 
 .questions {
+    display: grid;
+    grid-template-rows: 0fr;
+    gap: 1em;
+    width: 100%;
     cursor: pointer;
     padding: 2em;
     border-radius: 2em;
     border: solid 0.01em var(--Light_Gray);
+    transition: grid-template-rows 300ms;
+}
+
+.questions:hover {
+    grid-template-rows: 1fr;
+}
+
+.questions div {
+    overflow: hidden;
+}
+
+.question_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @media (width < 1000px) {
