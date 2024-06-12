@@ -518,22 +518,37 @@ main {
 }
 
 .questions {
-    display: grid;
-    grid-template-rows: 0fr;
-    gap: 1em;
     width: 100%;
     cursor: pointer;
     padding: 2em;
     border-radius: 2em;
     border: solid 0.01em var(--Light_Gray);
+}
+
+.question_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question_main h3 {
+    font-family: var(--Sora_Regular);
+    font-weight: 600;
+    font-size: 1.1em;
+    color: var(--Black);
+}
+
+.question_answer {
+    display: grid;
+    grid-template-rows: 0fr;
     transition: grid-template-rows 300ms;
 }
 
-.questions:hover {
+.questions:hover .question_answer {
     grid-template-rows: 1fr;
 }
 
-.questions div {
+.question_answer > div {
     overflow: hidden;
 }
 
