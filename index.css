@@ -498,6 +498,8 @@ main {
     font-size: 2em;
     font-weight: 500;
     color: var(--Black);
+    line-height: 1;
+    margin-bottom: 0.5em;
 }
 
 .questions_title p {
@@ -870,7 +872,7 @@ main {
     .results_title h3,
     .testimonial_title h1,
     .teamwork_title h1 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
 
     .feature_image {
