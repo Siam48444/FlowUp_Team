@@ -888,9 +888,11 @@ main {
         font-size: 1.1em;
     }
 
-    .feature_info h3 {
+    .feature_info h3,
+    .feature_info a {
         font-size: 0.9em;
     }
+
 
     .results {
         width: 8em;
