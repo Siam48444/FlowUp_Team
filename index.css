@@ -538,12 +538,6 @@ main {
     color: var(--Black);
 }
 
-.question_answer {
-    display: grid;
-    grid-template-rows: 0fr;
-    transition: grid-template-rows 300ms;
-}
-
 .question_answer p {
     font-family: var(--Inter_Thin);
     font-weight: 400;
@@ -551,7 +545,16 @@ main {
     color: var(--Black);
 }
 
-.questions:hover .question_answer {
+.question_answer {
+    display: grid;
+    /* grid-template-rows: 0fr; */
+    transition: grid-template-rows 300ms;
+}
+
+.question_answer[data-open="false"] {
+    grid-template-rows: 0fr;
+}
+.question_answer[data-open="true"] {
     grid-template-rows: 1fr;
 }
 

@@ -5,3 +5,6 @@ gsap.from(".hero_container", {
     duration: 1,
     ease: "power1.out",
 });
+
+// Frequently asked questions.
+// questions_answer = document.querySelector()
