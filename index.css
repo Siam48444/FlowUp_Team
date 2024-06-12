@@ -520,8 +520,8 @@ main {
 .questions {
     width: 100%;
     cursor: pointer;
-    padding: 2em;
-    border-radius: 2em;
+    padding: 1.5em;
+    border-radius: 1.5em;
     border: solid 0.01em var(--Light_Gray);
 }
 
@@ -542,6 +542,13 @@ main {
     display: grid;
     grid-template-rows: 0fr;
     transition: grid-template-rows 300ms;
+}
+
+.question_answer p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Black);
 }
 
 .questions:hover .question_answer {

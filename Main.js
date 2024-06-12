@@ -1,10 +1,3 @@
-// After loading animations.
-gsap.from("nav", {
-    y: "-50",
-    duration: 1,
-    ease: "power1.out",
-});
-
 // Appearing on scroll animation.
 appear_on_scroll_elements = document.querySelectorAll(".appear_on_scroll");
 appear_on_scroll_elements.forEach((scroll_element) => {
@@ -19,6 +12,21 @@ appear_on_scroll_elements.forEach((scroll_element) => {
         },
     });
 });
+
+// Navigation changing position on scroll.
+var old_Y = window.scrollY;
+
+window.addEventListener("scroll", () => {
+    old_Y < window.scrollY ? scrollingdDown() : scrollingdUp();
+    old_Y = window.scrollY;
+});
+
+function scrollingdDown() {
+    gsap.to("nav", { y: "-105%", duration: 0.5 });
+}
+function scrollingdUp() {
+    gsap.to("nav", { y: 0, duration: 0.5 });
+}
 
 // Footer appearing animation.
 footer = document.querySelector("footer");
