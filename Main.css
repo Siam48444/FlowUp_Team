@@ -6,15 +6,11 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     text-decoration: none;
-
-    &::selection {
-        background-color: var(--Primary_Blue);
-        color: var(--White);
-    }
 }
 
 body,
 html {
+    overflow: hidden auto;
     scroll-behavior: smooth;
     box-sizing: border-box;
     margin: 0;
@@ -202,6 +198,81 @@ nav {
     transition-duration: 300ms;
 }
 
+.menu_section {
+    z-index: 8;
+    overflow: hidden;
+    position: fixed;
+    inset: 0;
+    background-color: var(--White);
+    overflow-y: auto;
+    transform: translateY(-105%);
+}
+
+.menu_container {
+    width: 90%;
+    margin: auto;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.menu_links {
+    width: 100%;
+    border-bottom: solid 0.01em var(--Light_Gray);
+    text-align: center;
+    padding-block: 2em;
+    font-family: var(--Inter_Thin);
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--Black);
+    transition: color 200ms;
+}
+
+.menu_links:not(.menu_active):hover {
+    color: var(--Primary_Blue);
+}
+
+.menu_bottom {
+    margin-block: 2em;
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.menu_user {
+    height: 100%;
+    padding-inline: 0.4em;
+    border: solid 0.01em var(--Light_Gray);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_user svg {
+    height: 1.5em;
+    color: var(--Gray);
+}
+
+.menu_get_started {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 0.01em var(--Light_Gray);
+    border-radius: 9em;
+    font-family: var(--Inter_Thin);
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--Black);
+}
+
 footer {
     position: relative;
     background-color: var(--Black);
@@ -353,6 +424,10 @@ footer {
 }
 
 @media (width < 1000px) {
+    .menu_section {
+        transform: translateY(0);
+    }
+
     .navigation {
         width: 100%;
         padding: 1em 1.5em;
