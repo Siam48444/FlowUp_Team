@@ -36,7 +36,7 @@ html {
     /* Colors */
     --Primary_Blue: rgb(59, 90, 255);
     --Light_Blue: rgb(231, 236, 251);
-    --Dark_Blue: rgb(27, 40, 112);
+    --Dark_Blue: rgb(29, 43, 124);
     --Primary_Orange: rgb(255, 92, 33);
     --Black: rgb(17, 17, 17);
     --White: rgb(250, 250, 250);
@@ -59,8 +59,8 @@ html {
 .blue_gradient_btn {
     border-color: transparent;
     color: var(--White);
-    background-image: linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
     background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
     border: solid 0.01em linear-gradient(90deg, var(--Primary_Blue), var(--Dark_Blue));
 }
 
