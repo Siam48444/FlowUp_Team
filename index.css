@@ -162,9 +162,8 @@ main {
 
 .feature_info h1 {
     font-family: var(--Sora_Regular);
-    font-size: 1.6em;
     font-weight: 500;
-    line-height: 1;
+    font-size: 1.5em;
     color: var(--Black);
 }
 
@@ -182,7 +181,7 @@ main {
     color: var(--Black);
     font-family: var(--Inter_Thin);
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
     width: 100%;
 }
@@ -736,9 +735,10 @@ main {
     }
 
     .feature_image {
-        height: 10em;
+        height: 8em;
     }
 
+    .features,
     .feature_info {
         gap: 0.5em;
     }
