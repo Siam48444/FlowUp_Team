@@ -578,6 +578,7 @@ main {
 }
 
 .questions_contact h1 {
+    text-align: center;
     font-family: var(--Sora_Regular);
     font-size: 2em;
     font-weight: 500;
@@ -586,6 +587,7 @@ main {
 
 .questions_contact p {
     font-family: var(--Inter_Thin);
+    text-align: center;
     font-size: 1em;
     font-weight: 400;
     color: var(--Black);
@@ -678,6 +680,11 @@ main {
     .teamwork_title,
     .teamwork_container {
         width: 90%;
+    }
+
+    .questions_container {
+        width: 90%;
+        padding: 3em;
     }
 }
 
@@ -835,6 +842,15 @@ main {
         width: 90%;
         text-align: center;
     }
+
+    .questions_title h1,
+    .questions_contact h1 {
+        font-size: 1.6em;
+    }
+
+    .question_main h3 {
+        font-size: 1em;
+    }
 }
 
 @media (width < 500px) {
@@ -922,6 +938,25 @@ main {
 
     .teamwork_info p {
         font-size: 0.8em;
+        text-align: center;
+    }
+
+    .questions_title p,
+    .questions_contact p,
+    .question_answer div p {
+        font-size: 0.9em;
+    }
+
+    .questions_container {
+        padding: 2em;
+    }
+
+    .question_main svg {
+        height: 0.8em;
+    }
+
+    .questions_contact a {
+        width: 100%;
         text-align: center;
     }
 }
