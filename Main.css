@@ -206,6 +206,11 @@ nav {
     background-color: var(--White);
     overflow-y: auto;
     transform: translateY(-105%);
+    transition: transform 400ms;
+}
+
+.menu_open {
+    transform: translateY(0);
 }
 
 .menu_container {
@@ -437,10 +442,6 @@ footer {
 }
 
 @media (width < 1000px) {
-    .menu_section {
-        transform: translateY(0);
-    }
-
     .navigation {
         width: 100%;
         padding: 1em 1.5em;

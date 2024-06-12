@@ -1,8 +1,7 @@
 // After loading animations.
 gsap.from(".hero_container", {
-    y: "50",
     opacity: 0,
-    duration: 1,
+    duration: 1.5,
     ease: "power1.out",
 });
 

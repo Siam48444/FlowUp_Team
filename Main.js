@@ -13,6 +13,14 @@ appear_on_scroll_elements.forEach((scroll_element) => {
     });
 });
 
+// Hamburger menu interactivity.
+const hamburger = document.querySelector(".hamburger_btn");
+const menu = document.querySelector(".menu_section");
+
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("menu_open");
+});
+
 // Footer appearing animation.
 footer = document.querySelector("footer");
 gsap.from(footer, {
