@@ -1,3 +1,10 @@
+// After loading animations.
+gsap.from("nav", {
+    y: "-50",
+    duration: 1,
+    ease: "power1.out",
+});
+
 // Appearing on scroll animation.
 appear_on_scroll_elements = document.querySelectorAll(".appear_on_scroll");
 appear_on_scroll_elements.forEach((scroll_element) => {
@@ -11,4 +18,15 @@ appear_on_scroll_elements.forEach((scroll_element) => {
             start: "top 80%",
         },
     });
+});
+
+// Footer appearing animation.
+footer = document.querySelector("footer");
+gsap.from(footer, {
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+        trigger: footer,
+        start: "top 95%",
+    },
 });
