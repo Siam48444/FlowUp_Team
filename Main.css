@@ -160,10 +160,12 @@ nav {
     background-color: var(--Black);
     width: 100%;
     height: 0.12em;
+    transition-property: transform;
+    transition-duration: 400ms;
 }
 
-.line_3 {
-    background-color: red;
+.line_1 {
+    transform: translateY(0.5em);
 }
 
 .get_started {
