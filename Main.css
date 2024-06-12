@@ -162,6 +162,10 @@ nav {
     height: 0.12em;
 }
 
+.line_3 {
+    background-color: red;
+}
+
 .get_started {
     color: var(--Gray);
     font-family: var(--Inter_Thin);
