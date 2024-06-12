@@ -441,6 +441,12 @@ footer {
     color: var(--Primary_Blue);
 }
 
+@media (width > 1000px) {
+    .menu_section {
+        display: none;
+    }
+}
+
 @media (width < 1000px) {
     .navigation {
         width: 100%;
