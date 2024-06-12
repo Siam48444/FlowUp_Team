@@ -240,8 +240,8 @@ nav {
 }
 
 .menu_bottom {
-    margin-block: 2em;
-    height: 2.5em;
+    margin-block: 3em;
+    height: 2.7em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -251,7 +251,7 @@ nav {
 
 .menu_user {
     height: 100%;
-    padding-inline: 0.4em;
+    padding-inline: 0.5em;
     border: solid 0.01em var(--Light_Gray);
     border-radius: 50%;
     display: flex;
