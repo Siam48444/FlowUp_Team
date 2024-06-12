@@ -164,8 +164,14 @@ nav {
     transition-duration: 400ms;
 }
 
-.line_1 {
-    transform: translateY(0.5em);
+.line_1_transformed {
+    transform: translateY(0.5em) rotate(45deg);
+}
+.line_2_transformed {
+    opacity: 0;
+}
+.line_3_transformed {
+    transform: translateY(-0.5em) rotate(-45deg);
 }
 
 .get_started {
