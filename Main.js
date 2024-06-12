@@ -1,3 +1,5 @@
+var tl = gsap.timeline();
+
 // Appearing on scroll animation.
 appear_on_scroll_elements = document.querySelectorAll(".appear_on_scroll");
 appear_on_scroll_elements.forEach((scroll_element) => {
@@ -16,9 +18,13 @@ appear_on_scroll_elements.forEach((scroll_element) => {
 // Hamburger menu interactivity.
 const hamburger = document.querySelector(".hamburger_btn");
 const menu = document.querySelector(".menu_section");
+const hamburger_lines = document.querySelectorAll(".ham_btn_lines");
 
 hamburger.addEventListener("click", () => {
     menu.classList.toggle("menu_open");
+    hamburger_lines[0].classList.toggle("line_1_transformed");
+    hamburger_lines[1].classList.toggle("line_2_transformed");
+    hamburger_lines[2].classList.toggle("line_3_transformed");
 });
 
 // Footer appearing animation.
