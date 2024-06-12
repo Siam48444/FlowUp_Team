@@ -553,11 +553,12 @@ main {
 .question_answer {
     display: grid;
     grid-template-rows: 0fr;
-    transition: grid-template-rows 300ms;
+    transition: grid-template-rows 300ms, padding-top 300ms;
 }
 
 .questions:hover .question_answer {
     grid-template-rows: 1fr;
+    padding-top: 1em;
 }
 
 .question_answer > div {
