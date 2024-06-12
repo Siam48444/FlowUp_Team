@@ -1,5 +1,3 @@
-var tl = gsap.timeline();
-
 // Appearing on scroll animation.
 appear_on_scroll_elements = document.querySelectorAll(".appear_on_scroll");
 appear_on_scroll_elements.forEach((scroll_element) => {
