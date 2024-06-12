@@ -252,11 +252,24 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: background-color, border;
+    transition-duration: 200ms;
+}
+
+.menu_user:hover {
+    background-color: var(--Primary_Blue);
+    border: solid 0.01em var(--Primary_Blue);
+}
+
+.menu_user:hover svg {
+    color: var(--White);
 }
 
 .menu_user svg {
     height: 1.5em;
     color: var(--Gray);
+    transition-property: color;
+    transition-duration: 200ms;
 }
 
 .menu_get_started {
