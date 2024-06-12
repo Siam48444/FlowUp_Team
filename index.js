@@ -7,4 +7,3 @@ gsap.from(".hero_container", {
 });
 
 // Frequently asked questions.
-// questions_answer = document.querySelector()
