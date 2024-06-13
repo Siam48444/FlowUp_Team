@@ -20,11 +20,26 @@
     font-weight: 500;
     color: var(--Black);
     line-height: 1;
-}   
+}
 
 .pricing_title h6 {
     font-size: 1.1em;
     font-family: var(--Inter_Thin);
     font-weight: 400;
     color: var(--Black);
-}   
+}
+
+.pricing_container {
+    background-color: yellowgreen;
+    width: 80%;
+    height: 20em;
+    margin: auto;
+    padding-block: 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.prices {
+    background-color: red;
+}
