@@ -38,7 +38,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
     width: 50%;
 }
 
@@ -64,4 +64,14 @@
     font-weight: 400;
     font-size: 1em;
     color: var(--Gray);
+}
+
+.demo_container button {
+    width: 50%;
+    padding: 1.2em;
+    border-radius: 9em;
+    cursor: pointer;
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 1em;
 }
