@@ -5,7 +5,17 @@
 }
 
 .demo_container {
-    padding-block: 8em;
+    padding-block: 10em;
     width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
 }
 
+.demo_title {
+    background-color: red;
+    width: 50%;
+}
