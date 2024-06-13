@@ -41,8 +41,8 @@
 .prices {
     background-color: var(--White);
     border: solid 0.01em var(--Light_Gray);
-    padding: 1.8em;
-    border-radius: 2em;
+    padding: 1.5em;
+    border-radius: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: start;
