@@ -16,6 +16,19 @@
 }
 
 .demo_title {
-    background-color: red;
     width: 50%;
+}
+
+.demo_title p {
+    font-family: var(--Inter_Thin);
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--Gray);
+}
+
+.demo_title h1 {
+    font-family: var(--Sora_Regular);
+    font-size: 2.5em;
+    font-weight: 500;
+    color: var(--Black);
 }
