@@ -148,6 +148,10 @@
 }
 
 @media (width < 850px) {
+    .prices:hover .price_svg_container svg {
+        rotate: none;
+    }
+
     .pricing_title {
         grid-template-columns: 1fr;
         gap: 1em;
