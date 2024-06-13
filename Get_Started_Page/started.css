@@ -173,3 +173,26 @@
         grid-column: 2 / 4;
     }
 }
+
+@media (width < 550px) {
+    .pricing_title h1 {
+        font-size: 2.5em;
+    }
+
+    .pricing_container {
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .prices:nth-child(1) {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+    .prices:nth-child(2) {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3;
+    }
+    .prices:nth-child(3) {
+        grid-column: 1 / 5;
+        grid-row: 3 / 4;
+    }
+}
