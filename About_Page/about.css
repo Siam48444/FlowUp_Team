@@ -26,7 +26,7 @@
     color: var(--Black);
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .this_is_us_section {
@@ -99,4 +99,11 @@
     font-size: 1em;
     font-weight: 400;
     color: var(--White);
+}
+
+@media (width < 1000px) {
+    .meet_title,
+    .this_is_us_info {
+        width: 90%;
+    }
 }
