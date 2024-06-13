@@ -53,3 +53,11 @@
     line-height: 2;
     color: var(--Black);
 }
+
+.demo_input input {
+    background-color: var(--White);
+    border: solid 0.01em var(--Light_Gray);
+    height: 4em;
+    width: 100%;
+    border-radius: 1em;
+}
