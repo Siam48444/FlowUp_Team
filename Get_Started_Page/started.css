@@ -68,6 +68,20 @@
     color: var(--Black);
 }
 
+.price_svg_container {
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: var(--Light_Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_svg_container svg {
+    height: 2em;
+    color: var(--Primary_Blue);
+}
+
 .price_head h3 {
     font-family: var(--Sora_Regular);
     font-weight: 500;
