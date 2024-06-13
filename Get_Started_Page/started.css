@@ -40,13 +40,13 @@
 
 .prices {
     background-color: var(--Light_Blue);
-    padding: 2em;
+    padding: 1.8em;
     border-radius: 2em;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 2em;
+    gap: 3em;
 }
 
 .price_advantage {
@@ -60,13 +60,25 @@
 .price_head h3 {
     font-family: var(--Sora_Regular);
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--Black);
 }
 
 .price_head h1 {
     font-family: var(--Sora_Regular);
     font-weight: 500;
-    font-size: 2em;
+    font-size: 2.2em;
+    color: var(--Black);
+}
+
+.price_btn {
+    width: 100%;
+    background-color: var(--White);
+    padding: 1.2em;
+    text-align: center;
+    border-radius: 9em;
+    font-family: var(--Inter_Thin);
+    font-weight: 500;
+    font-size: 1em;
     color: var(--Black);
 }
