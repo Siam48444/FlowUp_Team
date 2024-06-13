@@ -134,3 +134,32 @@
     color: var(--Black);
     height: 1em;
 }
+
+@media (width < 1000px) {
+    .pricing_container,
+    .pricing_title {
+        width: 90%;
+    }
+}
+
+@media (width < 850px) {
+    .pricing_title {
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
+
+    .pricing_title h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .pricing_title h6 {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .pricing_container {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
