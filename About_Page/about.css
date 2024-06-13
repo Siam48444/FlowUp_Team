@@ -1,0 +1,31 @@
+.meet_the_team_section {
+    padding-block: 8em;
+    margin: auto;
+    width: min(110em, 100%);
+    position: relative;
+}
+
+.meet_title {
+    width: 80%;
+    margin: auto;
+}
+
+.meet_title h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 3.5em;
+    line-height: 1;
+    color: var(--Black);
+    text-align: center;
+    margin: auto;
+}
+
+.meet_title p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--Black);
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
