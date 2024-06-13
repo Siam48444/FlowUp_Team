@@ -1,14 +1,30 @@
 .pricing_container {
     width: min(110em, 100%);
     margin: auto;
+    position: relative;
 }
 
 .pricing_title {
     padding-block: 8em;
     width: 80%;
     margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2em;
 }
 
 .pricing_title h1 {
-    font-size: 5em;
-}
+    font-size: 4em;
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    color: var(--Black);
+    line-height: 1;
+}   
+
+.pricing_title h6 {
+    font-size: 1em;
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    color: var(--Black);
+}   
