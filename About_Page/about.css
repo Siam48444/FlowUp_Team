@@ -1,11 +1,11 @@
 .meet_the_team_section {
-    padding-block: 8em;
     margin: auto;
     width: min(110em, 100%);
     position: relative;
 }
 
 .meet_title {
+    padding-block: 15em;
     width: 80%;
     margin: auto;
 }
