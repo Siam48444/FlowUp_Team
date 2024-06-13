@@ -40,14 +40,14 @@
 
 .prices {
     background-color: var(--White);
-    border: solid 0.01em var(--Light_Gray);
+    border: solid 0.01em var(--Primary_Blue);
     padding: 1.8em;
     border-radius: 2em;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
 }
 
 .price_head h3 {
