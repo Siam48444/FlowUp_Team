@@ -40,7 +40,7 @@
 
 .prices {
     background-color: var(--White);
-    border: solid 0.01em var(--Primary_Blue);
+    border: solid 0.01em var(--Light_Gray);
     padding: 1.8em;
     border-radius: 2em;
     display: flex;
@@ -48,6 +48,24 @@
     align-items: start;
     justify-content: center;
     gap: 2em;
+}
+
+#blue_gradient_price {
+    border: none;
+    background-image: linear-gradient(-10deg, var(--Primary_Blue), var(--Dark_Blue));
+}
+
+#blue_gradient_price .price_head h3,
+#blue_gradient_price .price_head h1,
+#blue_gradient_price .price_advantage svg,
+#blue_gradient_price .price_advantage p {
+    color: var(--White);
+}
+
+#blue_gradient_price .price_btn {
+    background-image: none;
+    background-color: var(--White);
+    color: var(--Black);
 }
 
 .price_head h3 {
