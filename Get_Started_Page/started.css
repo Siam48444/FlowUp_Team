@@ -48,6 +48,11 @@
     align-items: start;
     justify-content: center;
     gap: 2em;
+    transition: box-shadow 300ms;
+}
+
+.prices:hover:not(#blue_gradient_price) {
+    box-shadow: 0.3em 0.3em 0.5em var(--Light_Gray);
 }
 
 .prices:hover .price_svg_container svg {
