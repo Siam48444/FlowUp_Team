@@ -39,7 +39,7 @@
 }
 
 .prices {
-    background-color: yellowgreen;
+    background-color: var(--Light_Blue);
     padding: 2em;
     border-radius: 2em;
     display: flex;
@@ -55,4 +55,18 @@
     align-items: start;
     justify-content: center;
     gap: 0.5em;
+}
+
+.price_head h3 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 1.5em;
+    color: var(--Black);
+}
+
+.price_head h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 2em;
+    color: var(--Black);
 }
