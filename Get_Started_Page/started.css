@@ -50,6 +50,10 @@
     gap: 2em;
 }
 
+.prices:hover .price_svg_container svg {
+    rotate: 45deg;
+}
+
 #blue_gradient_price {
     border: none;
     background-image: linear-gradient(-10deg, var(--Primary_Blue), var(--Dark_Blue));
@@ -80,6 +84,7 @@
 .price_svg_container svg {
     height: 2em;
     color: var(--Primary_Blue);
+    transition: rotate 300ms;
 }
 
 .price_head h3 {
