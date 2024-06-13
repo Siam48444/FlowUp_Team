@@ -57,7 +57,11 @@
 .demo_input input {
     background-color: var(--White);
     border: solid 0.01em var(--Light_Gray);
-    height: 4em;
     width: 100%;
     border-radius: 1em;
+    padding: 1em;
+    font-family: var(--Sora_Regular);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
 }
