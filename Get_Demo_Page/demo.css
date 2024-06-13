@@ -1,9 +1,11 @@
 .demo_section {
-    background-color: red;
-    height: 100vh;
     width: min(110em, 100%);
     position: relative;
     margin: auto;
+}
+
+.demo_container {
     padding-block: 8em;
+    width: 80%;
 }
 
