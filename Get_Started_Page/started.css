@@ -1,4 +1,4 @@
-.pricing_container {
+.pricing_section {
     width: min(110em, 100%);
     margin: auto;
     position: relative;
@@ -23,7 +23,7 @@
 }   
 
 .pricing_title h6 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: var(--Inter_Thin);
     font-weight: 400;
     color: var(--Black);
