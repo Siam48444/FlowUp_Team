@@ -76,6 +76,10 @@
         padding-top: 8em;
     }
 
+    .hero_left {
+        width: 90%;
+    }
+
     .hero_left h1,
     .hero_left p {
         text-align: center;
@@ -85,5 +89,9 @@
         justify-content: center;
     }
 
-    
+    .hero_right {
+        height: 25em;
+        width: 90%;
+        margin-top: 2em;
+    }
 }
