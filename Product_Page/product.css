@@ -74,13 +74,13 @@
 }
 
 .sub_hero_container {
-    height: 15em;
     width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1em;
+    gap: 2em;
+    height: 15em;
 }
 
 .sub_hero {
@@ -99,6 +99,21 @@
 .sub_left svg {
     height: 2em;
     color: var(--Primary_Blue);
+}
+
+.sub_right h6 {
+    font-family: var(--Sora_Regular);
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--Black);
+    margin-bottom: 0.5em;
+}
+
+.sub_right p {
+    font-family: var(--Inter_Thin);
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--Gray);
 }
 
 @media (width < 1000px) {
