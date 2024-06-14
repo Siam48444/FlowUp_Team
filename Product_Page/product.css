@@ -5,14 +5,29 @@
 }
 
 .hero_container {
-    background-color: coral;
     width: 80%;
     margin: auto;
-    padding-block: 8em;
+    padding-block: 15em;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 3em;
 }
 
+.hero_left {
+    width: 50%;
+}
 
+.hero_left h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 3.5em;
+    color: var(--Black);
+}
+
+.hero_left p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--Gray);
+}
