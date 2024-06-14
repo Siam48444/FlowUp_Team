@@ -1,0 +1,16 @@
+.product_hero_section {
+    position: relative;
+    margin: auto;
+    width: min(110em, 100%);
+}
+
+.hero_container {
+    background-color: coral;
+    width: 80%;
+    margin: auto;
+    padding-block: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3em;
+}
