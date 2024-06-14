@@ -115,6 +115,97 @@
     color: var(--Black);
 }
 
+.teamwork_section {
+    width: min(110em, 100%);
+    padding-block: 3em;
+    margin: auto;
+    position: relative;
+}
+
+.teamwork_title {
+    width: 80%;
+    margin: auto;
+}
+
+.teamwork_title p {
+    font-family: var(--Inter_Thin);
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3;
+    color: var(--Gray);
+}
+
+.teamwork_title h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1;
+    color: var(--Black);
+    text-align: center;
+}
+
+.teamwork_container {
+    padding-block: 1em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    border-bottom: solid 0.01em var(--Light_Gray);
+}
+
+.teamwork_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.5em;
+    width: 50%;
+}
+
+.teamwork_info h4 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 1.5em;
+    color: var(--Black);
+}
+
+.teamwork_info p {
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
+}
+
+.teamwork_image {
+    width: 50%;
+    height: 30em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.teamwork_get_started_btn_container {
+    width: min(110em, 100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5em 15em;
+}
+
+.teamwork_get_started_btn_container a {
+    padding: 1em 1.5em;
+    border: solid 0.01em var(--Light_Gray);
+    font-family: var(--Inter_Thin);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Black);
+    border-radius: 9em;
+}
+
 @media (width < 1000px) {
     .hero_container {
         width: 90%;
