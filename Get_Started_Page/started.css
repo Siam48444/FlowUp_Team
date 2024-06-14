@@ -162,6 +162,10 @@
 }
 
 @media (width < 850px) {
+    .prices:hover {
+        box-shadow: none;
+    }
+
     .prices:hover .price_svg_container svg {
         rotate: none;
     }
