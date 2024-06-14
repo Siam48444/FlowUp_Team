@@ -249,6 +249,12 @@
 }
 
 @media (width < 550px) {
+    .meet_title h1,
+    .this_is_us_title h1,
+    .people_container h1 {
+        font-size: 2em;
+    }
+
     .people_image {
         height: 20em;
     }
