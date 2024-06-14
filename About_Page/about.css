@@ -104,6 +104,24 @@
     color: var(--White);
 }
 
+.people_section {
+    position: relative;
+    margin: auto;
+    width: min(110em, 100%);
+}
+
+.people_container {
+    width: 80%;
+    padding-block: 8em;
+    margin: auto;
+}
+
+.people_container h1 {
+    font-family: var(--Sora_Regular);
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
 @media (width < 1000px) {
     .meet_title,
     .this_is_us_info {
@@ -121,7 +139,8 @@
     }
 
     .meet_title h1,
-    .this_is_us_title h1 {
+    .this_is_us_title h1,
+    .people_container h1 {
         font-size: 3em;
     }
 
