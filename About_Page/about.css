@@ -156,7 +156,7 @@
     width: 100%;
     height: 30em;
     border-radius: 2em;
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0.5em;
@@ -180,11 +180,13 @@
 
 @media (width < 1000px) {
     .meet_title,
-    .this_is_us_info {
+    .this_is_us_info,
+    .people_container {
         width: 90%;
     }
 
-    .us_image {
+    .us_image,
+    .people_image {
         height: 25em;
     }
 }
