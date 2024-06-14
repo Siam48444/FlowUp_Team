@@ -256,16 +256,6 @@
     font-size: 1em;
 }
 
-/* @media (width < 800px) {
-    .contact_container {
-        width: 90%;
-    }
-
-    .contact_title h1 {
-        font-size: 2em;
-    }
-} */
-
 @media (width < 1000px) {
     .meet_title,
     .this_is_us_info,
@@ -314,6 +304,14 @@
     }
     .people_images_with_names:nth-child(5) {
         grid-column: 1 / 7;
+    }
+
+    .contact_container {
+        width: 90%;
+    }
+
+    .contact_title h1 {
+        font-size: 2em;
     }
 }
 
@@ -365,5 +363,9 @@
     .people_images_with_names:nth-child(4),
     .people_images_with_names:nth-child(5) {
         grid-column: 1 / 7;
+    }
+
+    .contact_title h1 {
+        font-size: 1.7em;
     }
 }
