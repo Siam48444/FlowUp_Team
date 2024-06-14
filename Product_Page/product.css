@@ -15,7 +15,15 @@
 }
 
 .hero_left {
-    width: 50%;
+    width: 55%;
+}
+
+.hero_right {
+    width: 45%;
+    height: 30em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hero_left h1 {
@@ -56,12 +64,4 @@
     &:hover {
         color: var(--White);
     }
-}
-
-.hero_right {
-    width: 50%;
-    height: 45em;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
