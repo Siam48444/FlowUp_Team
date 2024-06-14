@@ -135,6 +135,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .people_images_with_names h5 {
