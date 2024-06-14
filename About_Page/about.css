@@ -223,10 +223,10 @@
     .people_images_with_names:nth-child(2),
     .people_images_with_names:nth-child(4) {
         grid-column: 4 / 7;
-        }
-        .people_images_with_names:nth-child(5) {
-            grid-column: 1 / 7;
-        }
+    }
+    .people_images_with_names:nth-child(5) {
+        grid-column: 1 / 7;
+    }
 }
 
 @media (width < 700px) {
@@ -245,5 +245,23 @@
 
     .us_image {
         height: fit-content;
+    }
+}
+
+@media (width < 550px) {
+    .people_image {
+        height: 20em;
+    }
+
+    .people_images_with_names {
+        margin-bottom: 1em;
+    }
+
+    .people_images_with_names:nth-child(1),
+    .people_images_with_names:nth-child(2),
+    .people_images_with_names:nth-child(3),
+    .people_images_with_names:nth-child(4),
+    .people_images_with_names:nth-child(5) {
+        grid-column: 1 / 7;
     }
 }
