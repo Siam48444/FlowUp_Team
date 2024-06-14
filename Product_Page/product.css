@@ -79,7 +79,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2em;
+    gap: 1.5em;
     height: 15em;
 }
 
@@ -106,14 +106,14 @@
     font-size: 1em;
     font-weight: 600;
     color: var(--Black);
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 .sub_right p {
     font-family: var(--Inter_Thin);
     font-size: 0.9em;
     font-weight: 400;
-    color: var(--Gray);
+    color: var(--Black);
 }
 
 @media (width < 1000px) {
