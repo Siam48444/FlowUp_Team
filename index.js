@@ -1,10 +1,3 @@
-// After loading animations.
-gsap.from(".hero_container", {
-    opacity: 0,
-    duration: 1.5,
-    ease: "power1.out",
-});
-
 // Frequently asked questions.
 const questions = document.querySelectorAll(".questions");
 const answers = document.querySelectorAll(".question_answer");

@@ -17,6 +17,8 @@
     color: var(--Black);
     text-align: center;
     margin: auto;
+    line-height: 1;
+    margin-bottom: 0.2em;
 }
 
 .meet_title p {
@@ -105,5 +107,25 @@
     .meet_title,
     .this_is_us_info {
         width: 90%;
+    }
+
+    .us_image {
+        height: 26em;
+    }
+}
+
+@media (width < 850px) {
+    .meet_title {
+        padding-block: 10em;
+    }
+
+    .meet_title h1,
+    .this_is_us_title h1 {
+        font-size: 3em;
+    }
+
+    .meet_title p,
+    .this_is_us_title h6 {
+        font-size: 1em;
     }
 }
