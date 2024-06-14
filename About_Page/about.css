@@ -255,6 +255,14 @@
         font-size: 2em;
     }
 
+    .people_images_with_names h5 {
+        font-size: 1.1em;
+    }
+
+    .people_images_with_names p {
+        font-size: 0.8em;
+    }
+
     .people_image {
         height: 20em;
     }
