@@ -66,6 +66,41 @@
     }
 }
 
+.product_sub_hero_section {
+    margin: auto;
+    position: relative;
+    width: min(110em, 100%);
+    padding-block: 1em;
+}
+
+.sub_hero_container {
+    height: 15em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.sub_hero {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 1em;
+}
+
+.sub_left {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.sub_left svg {
+    height: 2em;
+    color: var(--Primary_Blue);
+}
+
 @media (width < 1000px) {
     .hero_container {
         width: 90%;
