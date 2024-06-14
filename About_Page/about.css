@@ -128,7 +128,6 @@
     .meet_title p,
     .this_is_us_title h6,
     .us_detail p {
-
         font-size: 1em;
     }
 
@@ -142,5 +141,20 @@
 }
 
 @media (width < 700px) {
-    
+    .this_is_us_info {
+        flex-direction: column;
+    }
+
+    .us_detail,
+    .us_image {
+        width: 100%;
+    }
+
+    .us_detail p {
+        font-size: 0.9em;
+    }
+
+    .us_image {
+        height: fit-content;
+    }
 }
