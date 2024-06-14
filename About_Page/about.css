@@ -132,11 +132,16 @@
 
 .people_image {
     position: relative;
-    height: 25em;
+    height: 30em;
     border-radius: 2em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    &::after {
+        position: absolute;
+        content: ;
+    }
 }
 
 .people_image:nth-child(1) {
