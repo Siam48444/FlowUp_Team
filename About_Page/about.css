@@ -120,6 +120,22 @@
     font-family: var(--Sora_Regular);
     font-size: 3.5em;
     font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.people_images_container {
+    background-color: coral;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+}
+
+.people_image {
+    height: 15em;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (width < 1000px) {
