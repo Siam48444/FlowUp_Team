@@ -178,6 +178,94 @@
     grid-column: 4 / 7;
 }
 
+.contact_section {
+    width: min(110em, 100%);
+    position: relative;
+    margin: auto;
+}
+
+.contact_container {
+    padding-block: 10em;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.contact_title {
+    width: 100%;
+}
+
+.contact_title p {
+    font-family: var(--Inter_Thin);
+    font-size: 0.8em;
+    font-weight: 400;
+    color: var(--Gray);
+}
+
+.contact_title h1 {
+    font-family: var(--Sora_Regular);
+    font-size: 2.5em;
+    font-weight: 500;
+    color: var(--Black);
+}
+
+.contact_input_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+}
+
+.contact_input {
+    width: 100%;
+}
+
+.contact_input p {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 2;
+    color: var(--Black);
+}
+
+.contact_input input {
+    background-color: var(--White);
+    border: solid 0.01em var(--Light_Gray);
+    width: 100%;
+    border-radius: 1em;
+    padding: 1em;
+    font-family: var(--Sora_Regular);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
+}
+
+.contact_container button {
+    width: 100%;
+    padding: 1.2em;
+    border-radius: 9em;
+    cursor: pointer;
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+/* @media (width < 800px) {
+    .contact_container {
+        width: 90%;
+    }
+
+    .contact_title h1 {
+        font-size: 2em;
+    }
+} */
+
 @media (width < 1000px) {
     .meet_title,
     .this_is_us_info,
