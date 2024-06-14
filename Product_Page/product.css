@@ -33,7 +33,6 @@
 }
 
 .hero_btn_container {
-    background-color: coral;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -46,4 +45,15 @@
     padding: 1em 1.5em;
     text-align: center;
     border-radius: 9em;
+    font-family: var(--Inter_Thin);
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.hero_container a:last-child {
+    border: solid 0.01em var(--Light_Gray);
+    color: var(--Black);
+    &:hover {
+        color: var(--White);
+    }
 }
