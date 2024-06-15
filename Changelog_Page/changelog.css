@@ -5,13 +5,36 @@ main {
 }
 
 .changelog_container {
-    background-color: coral;
     margin: auto;
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-block: 5em;
+    padding-block: 10em;
 }
 
+.changelog_container h1 {
+    font-family: var(--Sora_Regular);
+    font-weight: 500;
+    font-size: 2.5em;
+    color: var(--Black);
+    margin-bottom: 3em;
+}
+
+.logs_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.log {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 2em;
+    border-bottom: solid 0.01em var(--Light_Gray);
+}
