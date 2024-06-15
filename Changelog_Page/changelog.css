@@ -11,7 +11,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-block: 10em;
+    padding-block: 5em;
 }
 
 .changelog_container h1 {
@@ -35,6 +35,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1em;
     padding-block: 2em;
     border-bottom: solid 0.01em var(--Light_Gray);
 }
@@ -49,4 +50,18 @@ main {
 .log span {
     font-weight: 700;
     color: var(--Black);
+}
+
+@media (width < 800px) {
+    .changelog_container {
+        width: 90%;
+    }
+
+    .changelog_container h1 {
+        font-size: 2em;
+    }
+
+    .log p {
+        font-size: 0.9em;
+    }
 }
