@@ -17,7 +17,7 @@ main {
 .changelog_container h1 {
     font-family: var(--Sora_Regular);
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 3em;
     color: var(--Black);
     margin-bottom: 3em;
 }
