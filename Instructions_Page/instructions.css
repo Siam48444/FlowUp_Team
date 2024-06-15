@@ -21,8 +21,32 @@ main {
 
 .title p {
     text-align: center;
-    font-family: var(--inter_Thin);
+    font-family: var(--Inter_Thin);
     font-weight: 400;
     font-size: 1.1em;
+    color: var(--Black);
+}
+
+.instructions_container {
+    width: 80%;
+    margin: auto;
+    padding-block: 3em;
+}
+
+.instruction {
+    padding-block: 2em;
+}
+
+.instruction h3 {
+    font-family: var(--Sora_Regular);
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--Black);
+}
+
+.instruction p {
+    font-family: var(--Inter_Thin);
+    font-size: 1.1em;
+    font-weight: 400;
     color: var(--Black);
 }
