@@ -17,7 +17,6 @@ main {
     font-weight: 500;
     font-size: 3em;
     color: var(--Black);
-    line-height: 1;
 }
 
 .title p {
@@ -26,5 +25,4 @@ main {
     font-weight: 400;
     font-size: 1.1em;
     color: var(--Black);
-    line-height: 1;
 }
