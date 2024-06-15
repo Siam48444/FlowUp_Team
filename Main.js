@@ -23,7 +23,7 @@ appear_on_scroll_elements.forEach((scroll_element) => {
         y: "50",
         scrollTrigger: {
             trigger: scroll_element,
-            start: "top 80%",
+            start: "top 85%",
         },
     });
 });
