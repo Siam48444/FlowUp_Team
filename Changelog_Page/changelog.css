@@ -38,3 +38,15 @@ main {
     padding-block: 2em;
     border-bottom: solid 0.01em var(--Light_Gray);
 }
+
+.log p {
+    font-family: var(--Sora_Regular);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--Gray);
+}
+
+.log span {
+    font-weight: 700;
+    color: var(--Black);
+}
