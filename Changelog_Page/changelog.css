@@ -1,0 +1,17 @@
+main {
+    position: relative;
+    width: min(110em, 100%);
+    margin: auto;
+}
+
+.changelog_container {
+    background-color: coral;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5em;
+}
+
