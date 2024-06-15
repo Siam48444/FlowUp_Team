@@ -21,7 +21,7 @@ main {
 
 .title p {
     text-align: center;
-    font-family: var(--Inter_Thin);
+    font-family: var(--Sora_Regular);
     font-weight: 400;
     font-size: 1.1em;
     color: var(--Black);
@@ -49,4 +49,14 @@ main {
     font-size: 1.1em;
     font-weight: 400;
     color: var(--Black);
+}
+
+.links {
+    color: var(--Black);
+    font-weight: 600;
+    transition: color 200ms;
+}
+
+.links:hover {
+    color: var(--Primary_Blue);
 }
