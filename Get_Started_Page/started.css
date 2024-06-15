@@ -64,12 +64,7 @@
     background-image: linear-gradient(-10deg, var(--Primary_Blue), var(--Dark_Blue));
 }
 
-#light_blue_price {
-    background-color: var(--Light_Blue);
-}
-
-#blue_gradient_price .price_svg_container,
-#light_blue_price .price_svg_container {
+#blue_gradient_price .price_svg_container {
     background-color: var(--White);
 }
 
@@ -162,7 +157,7 @@
 }
 
 @media (width < 850px) {
-    .prices:hover {
+    .prices:hover:not(#blue_gradient_price) {
         box-shadow: none;
     }
 
